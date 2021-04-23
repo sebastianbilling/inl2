@@ -9,7 +9,6 @@ const Login = () => {
         password: ''
     })
 
-
     const updateUserInfo = e => {
         const {id, value} = e.target
         setUserInfo(prevState => ({
@@ -17,7 +16,6 @@ const Login = () => {
             [id]: value
         }))
     }
-
 
     const submitHandler = e => {
         e.preventDefault()
